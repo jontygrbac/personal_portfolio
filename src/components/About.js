@@ -1,5 +1,6 @@
 
 import React from "react";
+import Download from "../download.svg"
 
 export default function About() {
   return (
