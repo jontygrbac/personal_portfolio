@@ -22,9 +22,12 @@ export default function About() {
               Work With Me
             </a>
             <a
-              href="#projects"
+              href="#skills"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
               Programming Skills
+            </a>
+            <a href="Jonathan Grbac Resume.pdf" className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg" download="Jonathan Grbac Resume.pdf">
+                Resume
             </a>
           </div>
         </div>
