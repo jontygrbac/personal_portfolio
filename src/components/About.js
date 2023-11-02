@@ -1,5 +1,7 @@
 
 import React from "react";
+import Github from "../github-mark-white.svg"
+import Linkedin from "../LI-In-Bug.png"
 import Download from "../download.svg"
 
 export default function About() {
@@ -18,17 +20,21 @@ export default function About() {
           </p>
           <div className="flex justify-center">
             <a
-              href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Work With Me
+              href="https://github.com/jontygrbac" target="_blank"
+              className="inline-flex text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 rounded text-lg">
+              Github&nbsp;&nbsp;
+              <img src={Github} className="object-scale-down h-8 pb-1" alt="Github Logo" />
             </a>
             <a
-              href="#skills"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              Programming Skills
+              href="https://www.linkedin.com/in/jonty-grbac-8b92861a1/" target="_blank"
+              className="ml-4 text-white inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+              Linkedin&nbsp;&nbsp;
+              <img src={Linkedin} className="object-scale-down h-8 pb-1" alt="Linkedin Logo" />
             </a>
-            <a href="Jonathan Grbac Resume.pdf" className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg" download="Jonathan Grbac Resume.pdf">
-                Resume
+            <a href="Jonathan Grbac Resume.pdf" 
+            className="ml-4 text-white inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg" download="Jonathan Grbac Resume.pdf">
+                Resume&nbsp;&nbsp;
+                <img src={Download} className="object-scale-down h-8 pb-1" alt="Download Symbol" />
             </a>
           </div>
         </div>

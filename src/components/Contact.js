@@ -12,6 +12,8 @@ export default function Contact() {
         )
         .join("&");
     }
+
+
   
     function handleSubmit(e) {
       e.preventDefault();
